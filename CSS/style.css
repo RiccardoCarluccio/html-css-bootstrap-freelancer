@@ -1,0 +1,7 @@
+:root {
+  --bs-secondary: rgba(44,62,80,255);
+}
+
+nav {
+  background-color: var(--bs-secondary);
+}
