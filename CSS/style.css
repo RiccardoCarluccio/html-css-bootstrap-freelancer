@@ -12,6 +12,10 @@ main section:nth-of-type(2) {
   background-color: var(--bs-primary);
 }
 
+main section:nth-child(4) {
+  background-color: rgba(58,84,109,255);
+}
+
 img {
   width: 100%;
   height: auto;
