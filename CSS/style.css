@@ -1,7 +1,12 @@
 :root {
+  --bs-primary: rgba(26,188,156,255);
   --bs-secondary: rgba(44,62,80,255);
 }
 
 nav {
   background-color: var(--bs-secondary);
+}
+
+body section:first-of-type {
+  background-color: var(--bs-primary);
 }
