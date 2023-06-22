@@ -19,6 +19,11 @@ img {
   object-fit: cover;
 }
 
+.header-img {
+  width: 80%;
+  height: auto;
+}
+
 main section:nth-of-type(4) {
   background-color: var(--bs-tertiary);
 }
