@@ -1,6 +1,7 @@
 :root {
   --bs-primary: rgba(26,188,156,255);
   --bs-secondary: rgba(44,62,80,255);
+  --bs-tertiary: rgba(58,84,109,255);
 }
 
 nav {
@@ -12,12 +13,27 @@ main section:nth-of-type(2) {
   background-color: var(--bs-primary);
 }
 
-main section:nth-child(4) {
-  background-color: rgba(58,84,109,255);
-}
-
 img {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+main section:nth-of-type(4) {
+  background-color: var(--bs-tertiary);
+}
+
+main section:nth-of-type(4) > div {
+  display: inline-block;    /* da eliminare dopo aver innestato meglio i container */
+}
+
+main section:nth-of-type(5) {
+  background-color: var(--bs-secondary);
+}
+
+.my-form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  --bs-border-radius: 0;
 }

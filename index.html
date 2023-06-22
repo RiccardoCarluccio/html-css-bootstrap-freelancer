@@ -29,8 +29,8 @@
 
     <section class="container-fluid d-flex justify-content-center py-4">
       <div class="container">
-        <div class="row">
-          <div class="col">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 col-md-7 col-sm-9">
             <img src="img/avatar.svg" alt="Omino giocondo">
             <h1 class="text-uppercase text-center fw-bold">Start Bootstrap</h1>
             <div class="d-flex justify-content-center">
@@ -78,7 +78,7 @@
           </div>
         </div>
         <div class="col text-center">
-          <button class="btn btn-outline-success"></button>
+          <button class="btn btn-outline-light">Download</button>
         </div>
       </div>
     </section>
@@ -89,16 +89,51 @@
         <div class="col text-center">
           <i class="fa-solid fa-dragon"></i>
         </div>
-        <div class="col-8">Name</div>
-        <div class="col-8">Send</div>
+
+        <div class="col-sm-9">
+          <form action="">
+            <div class="form-floating">
+              <input type="name" class="form-control my-form-control" id="floatingName" placeholder="John Doe">
+              <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating">
+              <input type="email" class="form-control my-form-control" id="floatingEmail" placeholder="Password">
+              <label for="floatingEmail">Email Address</label>
+            </div>
+            <div class="form-floating">
+              <input type="name" class="form-control my-form-control" id="floatingPhone" placeholder="Password">
+              <label for="floatingPhone">Phone Number</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control my-form-control" id="floatingTextarea" placeholder="Password" style="height: 150px">
+              <label for="floatingTextarea">Message</label>
+            </div>
+         </form>
+
+        </div>
+
       </div>
     </section>
 
-    <section class="container-fluid">
-      <div class="row flex-column align-items-center">
+    <section class="container-fluid d-flex justify-content-center py-4">  <!-- da nestarle in row>col>row -->
+      <div class="row flex-column align-items-center py-3">
         <div class="col text-center text-uppercase">Location</div>
         <div class="col text-center">2215 John Daniel Drive Clark, MO 54243</div>
       </div>
+
+      <div class="row flex-column align-items-center py-3">
+        <div class="col text-center text-uppercase">Location</div>
+        <div class="col text-center">2215 John Daniel Drive Clark, MO 54243</div>
+      </div>
+
+      <div class="row flex-column align-items-center py-3">
+        <div class="col text-center text-uppercase">Location</div>
+        <div class="col text-center">2215 John Daniel Drive Clark, MO 54243</div>
+      </div>
+    </section>
+
+    <section class="container-fluid py-4">
+      <p class="text-center">Copyright @ Your Website 2023</p>
     </section>
   </main>
 
